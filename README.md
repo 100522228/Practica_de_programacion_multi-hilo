@@ -13,8 +13,8 @@ Contiene un sistema multihilo implementado en C para entornos **UNIX/Linux**, qu
 
 ## 📁 Estructura del proyecto
 
-- `factory_manager.c`: Proceso principal que gestiona la entrada, crea los hilos y coordina su ejecución.
-- `process_manager.c`: Hilos secundarios encargados de gestionar colas y sincronizar productores/consumidores.
+- `factory_manager.c` y  `factory_manager.h`: Proceso principal que gestiona la entrada, crea los hilos y coordina su ejecución.
+- `process_manager.c` y `process_manager.h`: Hilos secundarios encargados de gestionar colas y sincronizar productores/consumidores.
 - `circular_queue.c` y `circular_queue.h`: Implementación de la cola circular y sus funciones auxiliares.
 - `Makefile`: Facilita la compilación del proyecto.
 
